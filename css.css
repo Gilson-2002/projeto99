@@ -1,0 +1,925 @@
+.container-fluid {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    /* border: 1px solid green; */
+}
+body{
+  background-color: #181A1B;
+}
+#href{
+  text-decoration: none;
+}
+#pipi{
+  /* border: 1px solid red; */
+  height: 50vh;
+  background-position: center;
+  background-image: url(imagem/capa2.jpg);
+  background-repeat: no-repeat;
+}
+
+#pepe{
+  /* border: 1px solid yellow; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -70px;
+  /* position: absolute; */
+}
+.box{
+
+  background-color: black;
+  width: 300px;
+  height: 350px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+#cor{
+  color: white;
+}
+.paragrafo{
+  margin-bottom: 30px;
+}
+#img_box{
+  width: 130px;
+  /* margin-top: -150px; */
+  /* border: 1px solid yellow; */
+}
+.img_gambi{
+  /* border: 1px solid red; */
+  margin-top: 30px;
+  width: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 40px; */
+}
+.h1_gambi{
+  /* border: 1px solid yellow; */
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p_gambi{
+  /* border: 1px solid yellow; */
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.hhh{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cabecalho{
+  /* border: 1px solid red; */
+  height: 200px;
+  width: auto;
+  margin-top: 80px;
+  /* margin-left: 300px; */
+}
+#icon_capa{
+  width: 60px;
+  position: absolute;
+
+}
+.bot{
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.bot:hover{
+  background-color: green;
+}
+
+/* =================================================== */
+/* login.html */
+
+.log1{
+  /* border: 1px solid red; */
+  width: 70%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url(imagem/capa5.jpg);
+  background-position: center;
+}
+.log2{
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 30%;
+  box-sizing: border-box;
+  float: right;
+}
+.logo_logo{
+  /* position: fixed;
+  top: 0; */
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+  /* margin-bottom: 20px; */
+}
+#login_img{
+  width: 150px;
+  max-width: 100%;
+  /* border: 1px solid green; */
+}
+#text_login {
+  color: #AFA89E;
+  margin-bottom: 10px;
+}
+#text_login_p {
+  color: #AFA89E;
+  margin-bottom: 10px;
+}
+.body_login{
+  overflow: hidden;
+}
+.imput{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+margin-top: 30px;
+}
+.input2{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+#inp{
+  width: 50%;
+  background-color: #333333;
+  border-radius: 20px;
+  color: white;
+}
+/* ======================================================= */
+
+/* ====================quadro.html=========================== */
+.tetinha{
+/* border: 1px solid yellow; */
+height: 70vh;
+}
+
+.info_quadro{
+  width: 100vw;
+  height: auto;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.info_linha{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  /* border: 1px solid red; */
+  margin-right: 10px;
+}
+.miudo{
+  width: 30px;
+  height: 30px;
+  background-color: #00995D;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.miudo_alugada{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: red;
+  border-radius: 5px;
+}
+#nene{
+  color: white;
+
+}
+h1{
+  color: white;
+  text-decoration: none;
+}
+.pepe_quadro{
+/* margin-top: -280px; */
+
+border: 1px solid green;
+background-color: #323235;
+border-radius: 10px;
+height: auto;
+width: 95%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.conteudo_quadro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+  margin: 10px;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tag{
+  height: 100%;
+  width: 30px;
+  background-color: #00995D;
+  border-radius: 5px 0px 0px 5px;
+  /* border-radius: 0px 5px 5px 0px; */
+}
+.tag1{
+  height: 100%;
+  width: 30px;
+  background-color: red;
+  border-radius: 5px 0px 0px 5px;
+  /* border-radius: 0px 5px 5px 0px; */
+}
+.tag3{
+  height: 100%;
+  width: 30px;
+  background-color: #F4E566;
+  border-radius: 5px 0px 0px 5px;
+  /* border-radius: 0px 5px 5px 0px; */
+}
+.tag4{
+  height: 100%;
+  width: 30px;
+  background-color: orange;
+  border-radius: 5px 0px 0px 5px;
+  /* border-radius: 0px 5px 5px 0px; */
+}
+.box_chave{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  /* overflow-y: auto; */
+  margin: 5px 10px 5px 10px;
+  width: 250px;
+  height: 75px;
+  max-height: 150px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+#deco{
+  text-decoration: none;
+}
+#modal_todo{
+
+}
+.h1_modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  height: 50px;
+  padding-top: 5px;
+}
+.p_modal{
+  display: flex;
+justify-content: center;
+align-items: center;
+  /* border: 1px solid yellow; */
+  width: 100%;
+  margin-top: 20px;
+
+}
+.p_texto{
+  /* border: 1px solid red; */
+  width: 270px;
+}
+#pp{
+  font-weight: bold;
+}
+#p_label{
+  margin-bottom: -0.5px;
+}
+.nome_quadro{
+  margin-left: 5%;
+  /* border: 1px solid red; */
+  width: 60%;
+  height: 100%;
+  /* display: flex;
+justify-content: center;
+align-items: center; */
+overflow-y: auto;
+/* padding: 10%; */
+}
+#inp_modal{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* Largura da barra de rolagem */
+}
+
+.numero_chave{
+  display: flex;
+justify-content: center;
+align-items: center;
+  border-left: 1px solid green;
+  width: 60px;
+  height: 100%;
+  float: right;
+}
+#pipi_quadro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-position: center;
+  background-image: url(imagem/capa7.jpg);
+  background-repeat: no-repeat;
+}
+
+.cabecalho_quadro{
+  /* margin-top: -130px; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 5vh;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.box_nova{
+  border: 1px solid green;
+  margin: 5px 10px 5px 10px;
+  width: auto;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: black;
+
+}
+.box_gambi{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  /* border: 1px solid green; */
+  width: 200px;
+  height: 60px;
+  overflow:auto;
+  marg
+  margin-left: 5px;
+
+}
+
+
+/* =========================================================== */
+/* ========================cadastrar.html======================= */
+
+.contata{
+  /* display: flex; */
+  flex-direction: row;
+  padding: 0;
+  /* flex: 1; */
+  height: 94vh;
+  /* border: 1px solid blue; */
+
+}
+
+.foto_cadastro{
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 50vw;
+  /* margin-left: -10px; */
+}
+.cor_diferente{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 18vw;
+  float: right;
+  background-color: #00995D
+}
+.foto_cadastro_img{
+  /* border: 1px solid yellow; */
+  height: 80vh;
+  width: 40vw;;
+  background-image: url(imagem/capa10.jpg);
+  background-position: center;
+  border-radius: 5px;
+}
+.form_cadastro{
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 50vw;
+  display: colum;
+  justify-content:  center;
+  align-items: center;
+  overflow-x: hidden;
+  /* margin-left: 15px; */
+}
+.porcaria{
+  /* border: 1px solid green; */
+}
+.porcaria2{
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+.porcaria3{
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.cadcad{
+  width: 150px;
+  height: 50px;
+  /* margin-left: 20px; */
+  margin-right: 20px;
+}
+
+
+.imput10{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+margin-top: 30px;
+}
+.input20{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#inp10{
+  width: 50%;
+  background-color: #333333;
+  border-radius: 20px;
+  color: white;
+
+}
+
+#inp20{
+  width: 50%;
+  background-color: #333333;
+  border-radius: 20px;
+  color: white;
+}
+
+
+
+.img_cadastro_gambi{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+  height: 94%;
+  width: 50vw;
+}
+
+
+.log1{
+  /* border: 1px solid red; */
+  width: 70%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url(imagem/capa5.jpg);
+  background-position: center;
+}
+.log2{
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 30%;
+  box-sizing: border-box;
+  float: right;
+}
+
+/* ============================================================= */
+/* =========================Historico.html======================= */
+.box_historico{
+  border: 1px solid green;
+  margin: 5px 10px 5px 10px;
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: black;
+  margin-top: 20px;
+
+}
+
+.h_historico{
+  width: 90%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display:  colum;
+  align-items: center;
+  justify-content: center;
+}
+.marca{
+  width: 10%;
+  height: 100%;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid green;
+}
+.nome_hist{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.paragrafo_hist{
+  margin-top: 10px;
+  /* border: 1px solid blue; */
+  width: 100%;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ======================================================= */
+
+@media (max-width: 1309px) {
+    .container-fluid {
+        background-color: #181A1B;
+    }
+    #merda{
+      display: none;
+    }
+    #pepe{
+      /* border: 1px solid red; */
+      width: 100vw;
+      margin-top: -4vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      background-color: black;
+
+    }
+    #pipi{
+      /* border: 1px solid red; */
+      width: 100vw;
+    }
+    .cabecalho{
+      margin-top: 4vh;
+      /* margin-bottom: 200px; */
+      /* border: 1px solid yellow; */
+    }
+
+}
+
+
+
+}
+
+
+
+}
+
+@media (max-width: 920px) {
+    .container-fluid {
+        /* background-color: red; */
+    }
+    #merda{
+      display: flex;
+    }
+    .box{
+      background-color: black;
+      /* width: 80%; */
+    }
+    #pipi{
+      /* border: 1px solid red; */
+      width: 100vw;
+    }
+    .cabecalho{
+      /* border: 1px solid red; */
+    }
+    .foto_cadastro{
+      /* display: none; */
+      background-color: red;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1281px) {
+    .h1_gambi{
+      font-size: 20px;
+
+    }
+    .p_gambi{
+      /* border: 1px solid red; */
+      /* margin: 0; */
+      width: 100%;
+      /* font-size: 10px; */
+    }
+    .container-fluid {
+        background-color: #181A1B;
+    }
+    #merda{
+      display: none;
+    }
+    #pepe{
+      /* border: 1px solid red; */
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      margin-right: 10px;;
+      background-color: black;
+      width: 24%;
+    }
+}
+
+@media (max-width: 1219px){
+  #text_login{
+    /* border: 1px solid yellow; */
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  @media (max-width: 1086px){
+    #text_login{
+      /* border: 1px solid red; */
+      font-size: 30px;
+      margin-top: 10px;
+    }
+    @media (max-width: 946px){
+      #text_login{
+        /* border: 1px solid green; */
+        font-size: 25px;
+        margin-top: 10px;
+      }
+    }
+      @media (max-width: 920px){
+        .logo_logo{
+          /* border: 1px solid white; */
+          /* margin-top: 50px; */
+        }
+        .teste_login{
+          /* border: 1px solid red; */
+          /* width: 100vw; */
+          margin-top: 80px;
+        }
+        #text_login{
+
+          /* border: 1px solid white; */
+          /* font-size: 35px; */
+          margin-top: 10px;
+        }
+        .log1{
+          display: none;
+        }
+        .log2{
+          width: 100vw;
+        }
+      }
+
+      @media (max-width: 400px){
+        .logo_logo{
+          /* border: 1px solid white; */
+
+          /* margin-bottom: -70px; */
+        }
+        .teste_login{
+          /* border: 1px solid green; */
+          /* width: 100vw; */
+          margin-top: 50px;
+        }
+        #text_login{
+
+          /* border: 1px solid yellow; */
+          /* font-size: 35px; */
+          margin-top: 10px;
+        }
+        .log1{
+          display: none;
+        }
+        .log2{
+          width: 100vw;
+        }
+      }
+      @media(max-width: 1024px){
+        .foto_cadastro{
+          display: none;
+          /* background-color: red; */
+        }
+        .form_cadastro{
+          width: 100%;
+        }
+      }
+
+
+      @media(max-width: 610px){
+        .tag3{
+          background-color: #F4E566;
+        }
+
+
+        .box_historico{
+          border: 1px solid green;
+          margin: 5px 10px 5px 10px;
+          width: auto;
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 5px;
+          background-color: black;
+          margin-top: 20px;
+
+        }
+
+        .h_historico{
+          width: 90%;
+          height: 100%;
+          /* border: 1px solid red; */
+          display:  colum;
+          align-items: center;
+          justify-content: center;
+        }
+        .marca{
+          width: 15%;
+          height: 100%;
+          /* border: 1px solid blue; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-left: 1px solid green;
+        }
+        .nome_hist{
+        /* border: 1px solid red; */
+          width: 100%;
+          display: block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 5px;
+        }
+        .paragrafo_hist{
+          margin-top: 5px;
+          /* border: 1px solid blue; */
+          width: 100%;
+          display: block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        h5{
+          font-size: 17px;
+        }
+
+
+
+      }
+
+
+
+
+      @media(max-width: 550px){
+        .tag3{
+          background-color: #F4E566;
+        }
+
+
+        h5{
+          font-size: 15px;
+        }
+
+
+
+      }
+      @media(max-width: 490px){
+        .tag3{
+          background-color: #F4E566;
+        }
+
+
+        h5{
+          font-size: 14px;
+        }
+
+      }
+      @media(max-width: 461px){
+        .tag3{
+          background-color: #F4E566;
+        }
+
+
+        h5{
+          font-size: 13px;
+        }
+
+
+
+      }
+      @media(max-width: 432px){
+        .tag3{
+          background-color: #F4E566;
+        }
+
+
+        h5{
+          font-size: 12px;
+        }
+
+
+
+      }
+      @media(max-width: 412px){
+        .tag3{
+          background-color: #F4E566;
+        }
+
+
+        h5{
+          font-size: 11px;
+        }
+
+      }
+      @media(max-width: 385px){
+        .tag3{
+          background-color: #F4E566;
+        }
+
+
+        h5{
+          font-size: 11px;
+        }
+        h1{
+          font-size: 35px;
+        }
+
+
+      }
+      @media(max-width: 280px){
+        .tag3{
+          background-color: #F4E566;
+        }
+
+
+        h5{
+          font-size: 10px;
+        }
+        h1{
+          font-size: 25px;
+        }
+
+
+      }
